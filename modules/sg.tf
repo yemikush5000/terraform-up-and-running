@@ -8,7 +8,7 @@ resource "aws_security_group" "lb_sg" {
     from_port        = 80
     to_port          = 80
     protocol         = "tcp"
-    cidr_blocks      = [aws_default_vpc.default.cidr_block]
+    cidr_blocks      = ["147.12.250.141/32"]
   }
 
   egress {
