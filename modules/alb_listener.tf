@@ -9,4 +9,6 @@ resource "aws_lb_listener" "http" {
       content_type = "text/plain"
       message_body = "404 Page not found"
       status_code  = "404"
+    } 
+  }
 }

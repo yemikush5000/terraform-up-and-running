@@ -1,4 +1,4 @@
-outputs "alb_arn" {
-  value = aws_alb.web_alb.arn
+output "alb_arn" {
+  value = aws_lb.web_alb.arn
 
 }
