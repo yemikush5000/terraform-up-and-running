@@ -10,4 +10,7 @@ variable "environment" {
   type = string
   description = "describes the environment for the resource"
 }
-
+variable "vpc_id" {
+  type = string
+  description = " the default vpc id"
+}
